@@ -1,1 +1,30 @@
 T E A M -> material-road-6006
+
+      Vishal Bhargava (fw19_0344)
+
+1. Signup/Login Page
+2. Navbar and Footer
+3. Experience Page
+4. Approach Page
+5. About Us Page
+
+     Ruchi priya kumari (fw19_0656) 
+
+1. Employers Page
+2. Health plans Page
+3. Consultants Page
+4. Resources Page
+
+     Saurabh Ubale  (fw19_0509)
+
+1. Landing Page
+2. Carriers opportunities Page
+3. Carriers Care team Page
+4. Carriers tech hiring Page
+
+     Dhiraj Patil (fw19_0006)
+
+1. Membership and pricing Page
+2. Coaching & care Page
+3. FAQ Page
+4. Blog Page
