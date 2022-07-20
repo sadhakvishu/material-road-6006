@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!-- Swiper CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         *{
             margin: 0;
@@ -184,6 +188,7 @@
         border: 1px solid;
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-top: 50px;
       }
       #brightline1 img{
         width: 100%;
@@ -228,7 +233,53 @@
         width: 100%;
     margin-left: 52%;
       }
-    
+      .owl-carousel {
+        border: 5px solid green;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .Carasol{
+        text-align: center;
+        margin-top: 110px;
+        margin-bottom: 50px;
+        font-size:40px;
+        font-weight: lighter;
+        color: rgb(71, 70, 70);
+      }
+      #brightlineo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 70%;
+        border: 1px solid;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      #brightlineo>div img{
+        width: 100%;
+      }
+      .brightline2>div h1{
+        margin-right: 53%;
+    margin-top: 30%;
+
+      }
+      .brightline2
+      {padding: 11px;
+      background-color: #fff3ce;}
+      .pt{
+        /* margin-right: 36%; */
+    margin-top: 4px;
+}
+.ptbutton{
+  margin-top: 20px;
+  margin-right:10px ;
+  padding: 18px 28px;
+        border-color: #267e6b;
+        border-radius: 25px;
+        color:#267e6b;border: 1px solid #267e6b;
+}
+.ptbutton:hover{
+        background-color :#267e6b;
+        color: white;}
     </style>
 </head>
 <body>
@@ -343,13 +394,74 @@
         </div>
         
     </div>
+    <h1 class="Carasol">Good News</h1>
+
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1RQrF.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1Kqrz.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1KLxX.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1K0PM.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1Kw8C.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1KCdf.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1KVqa.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1KG4X.jpg" alt=""></div>
+      <div class="item"><img src="https://i.im.ge/2022/07/20/F1VTzM.jpg" alt=""></div>
+  </div>
+  <h1 class="Carasol">Get started with Brightline today</h1>
+  <div id="brightlineo">
+    <div>
+      <img src="https://hellobrightline.s3.amazonaws.com/For_Families_2x_d42220125f.png" alt="error">
+    </div>
+
+    <div class="brightline2">
+        <div> 
+          <h1>For Families</h1>
+         <p>Get support for whatever tough stuff you’re dealing with, from a care</p>
+          <p class="pt">team who will always have your back.</p>
+          <button class="ptbutton">Join Now</button></div>
+        </div>
+         <!-- </div> -->
+  </div>
+
+  <div id="brightlineo">
+    <div>
+      <img src="https://hellobrightline.s3.amazonaws.com/For_Employers_2x_bd587cd26b.svg" alt="error">
+    </div>
+
+    <div class="brightline2">
+        <div> 
+          <h1>For Employers & Plans</h1>
+         <p>Bring extraordinary behavioral health support to children and</p>
+          <p class="pt">families, when and where they need it..</p>
+          <button class="ptbutton">For employers</button><span><button class="ptbutton">For healthplans</button></span></div>
+        </div>
+         <!-- </div> -->
+  </div>
+    <!-- Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>$('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+  </script>
 </body>
 </html>
+
 <script>
-    let text=document.querySelector('Strong')
-    let arr=['anxiety','depression','confidence','breakups','trauma','providers','employees','parents','families','identity','caregivers']
-    setInterval(() => {
-        let random=Math.floor(Math.random()*11)
-        text.innerText=arr[random]
-    }, 500);
+ 
 </script>
+
