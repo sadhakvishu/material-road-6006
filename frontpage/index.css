@@ -320,7 +320,9 @@ grid-template-columns: repeat(1,1fr);
   font-size: 60%;
  
 }
-
+.left_div{
+  margin-top:10px ;
+}
     #learnabout{
    
    grid-template-columns: repeat(1,1fr);
