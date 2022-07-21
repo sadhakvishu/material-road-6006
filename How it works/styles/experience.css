@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        /* TOP SECTION */
+.exp_top{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.exp_top>.exp_top_child:first-child{
+    padding: 80px 80px;
+}
+
+.exp_top_child>h1{
+    font-size: .75rem;
+}
+.exp_top_child>h2{
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.exp_top_child>p{
+    line-height: 1.8rem;
+}
+
+.exp_top_child_span{
+   color: #267E6B;
+   font-weight:900;
+}
+
+.exp_top_child>img{
+    width: 100%;
+}
+
+.exp_top_child button{
+    background-color: #267E6B;
+    color: white;
+    text-decoration: none;
+    border: transparent;
+    padding: 25px;
+    border-radius: 35px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.exp_top_child button:hover{
+    background-color: #0b3e33;
+    cursor: pointer;
+}
+
+
+
+        /* TABLE SECTION */
+
+
+
+        /* CARE SECTION */
+
+
+
+        /* VIDEO SECTION */
+
+
+
+        /* mini SECTION */
+
+
+
+        /* Section-05 */
+
+
+
+        /* Section-06 */
+
+
+
+        /* Section-07 */
+
+
+
+        /* carousel SECTION-1 */
+
+
+
+        /* carousel SECTION-2 */
+        
+
+
