@@ -4,23 +4,9 @@ window.addEventListener("scroll",()=>{
     nav.classList.toggle("afterscroll", position);
 })
 
-let nav = document.querySelector('.navbar');
-let dropdown = nav.querySelector('.nv_item');
-let dropdownToggle = nav.querySelector("[data-action='dropdown-toggle']");
-let navToggle = nav.querySelector("[data-action='nav-toggle']");
-
-dropdownToggle.addEventListener('click', () => {
-	if (dropdown.classList.contains('show')) {
-		dropdown.classList.remove('show');
-	} else {
-		dropdown.classList.add('show');
-	}
-})
-
-navToggle.addEventListener('click', () => {
-	if (nav.classList.contains('opened')) {
-		nav.classList.remove('opened');
-	} else {
-		nav.classList.add('opened');
-	}
+const hamburger = document.getElementById("hamburger");
+hamburger.addEventListener("click",function(e) {
+  const ul = document.querySelector('header  ul');
+  ul.classList.toggle('menu-slide');
+  hamburger.classList.toggle("cross")
 })
