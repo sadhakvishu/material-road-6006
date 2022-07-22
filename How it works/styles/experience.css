@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ui-serif, Georgia, "Times New Roman", Times, serif
 }
         /* TOP SECTION */
 .exp_top{
@@ -59,34 +60,222 @@
 
 
         /* CARE SECTION */
-
-
-
+        
+        .exp_care{
+    text-align: center;
+    /* margin: 40px; */
+   }
+   .exp_care>h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+   }
+   .exp_care>p{
+   font-size: 1.125rem;
+    line-height: 1.978;
+   }
+   .exp_care>div{
+    display: grid;
+    /* justify-content: center; */
+    /* border: 1px solid ; */
+    width: 93%;
+    margin: auto;
+    margin-top: 60px;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: space-between;
+   }
+   .exp_care>div>div>img{
+    width: 4.5rem;
+    height: 4.5rem;
+   }
+   .exp_care>div>div>h3{
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.1667;
+            color:rgb(38,126,107);
+            margin-top: 35px;
+            margin-bottom: 15px;
+   }
+   .exp_care>div>div>p{
+             font-size: 1.125rem;
+             line-height: 1.778;
+             font-weight: lighter;
+             margin-bottom: 30px;
+   }
+   
         /* VIDEO SECTION */
 
 
 
         /* mini SECTION */
-
-
+   
+   .exp_minisec{
+    text-align: center;
+    margin: 40px;
+   }
+   .exp_minisec>h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+   }
+   .exp_minisec>p{
+   font-size: 1.125rem;
+    line-height: 1.978;
+   }
 
         /* Section-05 */
+        .exp_sec5{
+            display: grid;
+            grid-template-columns: 50% 45%;
+            gap: 100px;
+        }
+        .exp_sec5_child>img{
+            width: 100%;
+        }
+        .exp_sec5>div:last-child{
+            line-height: 1.1667;
+        }
+        .exp_sec5>div:last-child>h3{
+            font-size: 3rem;
+            line-height: 1.1667;
+            color:rgb(38,126,107);
+            margin-top: 120px;
+            margin-bottom: 23px;
+        }
+        .exp_sec5>div:last-child>p{
+            font-size: 1.125rem;
+             line-height: 1.778;
+             font-weight: 400;
+             margin-bottom: 30px;
+        }
+        .exp_sec5>div:last-child>ul{
+        font-size: 1.125rem;
+         line-height: 1.778;
+         font-weight: 700;
+         margin-left: 18px;
+        }
+        .exp_sec5>div:last-child>a>button{
+           padding: 1.25rem 1.75rem;
+           color: rgb(38,126,107);
+           border-radius: 50px;
+           border: 1px solid rgb(38,126,107);
+           background-color: white;
+           font-weight: 500;
+           font-size: .875rem;
+           margin-top: 60px;
+           margin-left: 5px;
+        }
+        .exp_sec5>div:last-child>a>button:hover{
+            color:white;
+           border-radius: 50px;
+           cursor: pointer;
+           background-color: rgb(38,126,107);;
+        }
+        
 
 
 
         /* Section-06 */
 
-
+.exp_sec6{
+            display: grid;
+            grid-template-columns: 50% 50% ;
+            margin-top: 80px;
+          
+        }
+        .exp_sec6>div:first-child{
+            padding-left: 100px;
+            /* background-color: blue; */
+        }
+        .exp_sec6_child>img{
+            width: 100%;
+        }
+        .exp_sec6>div:first-child{
+            line-height: 1.1667;
+        }
+        .exp_sec6>div:first-child>h3{
+            font-size: 3rem;
+            line-height: 1.1667;
+            color:rgb(38,126,107);
+            margin-top: 120px;
+            margin-bottom: 23px;
+        }
+        .exp_sec6>div:first-child>p{
+            font-size: 1.125rem;
+             line-height: 1.778;
+             font-weight: 400;
+             margin-bottom: 30px;
+        }
+        .exp_sec6>div:first-child>ul{
+        font-size: 1.125rem;
+         line-height: 1.778;
+         font-weight: 700;
+         margin-left: 15px;
+        }
+        .exp_sec6>div:first-child>a>button{
+           padding: 1.25rem 1.75rem;
+           color: rgb(38,126,107);
+           border-radius: 50px;
+           border: 1px solid rgb(38,126,107);
+           background-color: white;
+           font-weight: 500;
+           font-size: .875rem;
+           margin-top: 60px;
+         
+        }
+        .exp_sec6>div:first-child>a>button:hover{
+            color:white;
+           border-radius: 50px;
+           cursor: pointer;
+           background-color: rgb(38,126,107);;
+        }
 
         /* Section-07 */
-
-
-
-        /* carousel SECTION-1 */
-
-
-
-        /* carousel SECTION-2 */
-        
-
-
+        .exp_sec7{
+            display: grid;
+            grid-template-columns: 50% 45%;
+            gap: 100px;
+            margin-top: 60px;
+        }
+        .exp_sec7_child>img{
+            width: 100%;
+        }
+        .exp_sec7>div:last-child{
+            line-height: 1.1667;
+        }
+        .exp_sec7>div:last-child>h3{
+            font-size: 3rem;
+            line-height: 1.1667;
+            color:rgb(38,126,107);
+            margin-top: 120px;
+            margin-bottom: 23px;
+        }
+        .exp_sec7>div:last-child>p{
+            font-size: 1.125rem;
+             line-height: 1.778;
+             font-weight: 400;
+             margin-bottom: 30px;
+        }
+        .exp_sec7>div:last-child>ul{
+        font-size: 1.125rem;
+         line-height: 1.778;
+         font-weight: 700;
+         margin-left: 18px;
+        }
+        .exp_sec7>div:last-child>a>button{
+           padding: 1.25rem 1.75rem;
+           color: rgb(38,126,107);
+           border-radius: 50px;
+           border: 1px solid rgb(38,126,107);
+           background-color: white;
+           font-weight: 500;
+           font-size: .875rem;
+           margin-top: 60px;
+           margin-left: 5px;
+        }
+        .exp_sec7>div:last-child>a>button:hover{
+            color:white;
+           border-radius: 50px;
+           cursor: pointer;
+           background-color: rgb(38,126,107);;
+        }
