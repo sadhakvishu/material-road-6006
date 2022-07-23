@@ -7,6 +7,11 @@
     font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
     font-size: 12px;
 }
+#footer{
+    padding: 20px 76px;
+    background-color: #2C333F;
+
+}
 .ft_footer{
     /* max-width: 1300px; */
     margin: auto;
@@ -15,10 +20,9 @@
     /* padding: 56px; */
     
 }
-#footer .footer ul li{
-    display: block;
-    /* flex-direction: column; */
-} 
+/* #footer ul>li>a{
+    display: grid;
+}  */
 
 .ft_footer a{
     text-decoration: none;

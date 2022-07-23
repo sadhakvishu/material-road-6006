@@ -1,0 +1,183 @@
+/* body {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  } */
+  
+  #resource .first {
+    margin: 50px;
+  
+  }
+  
+  #resource  span {
+    font-size: 50px;
+  }
+  
+  #resource  p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  #resource  .second p {
+    text-align: center;
+  }
+  
+  #resource  .third p {
+    text-align: center;
+  }
+  
+  #resource  .fourth p {
+    text-align: center;
+  }
+  
+  #resource  .five p {
+    text-align: center;
+  }
+  
+  #resource img {
+    width: 700px;
+    height: 700px;
+  }
+  
+  #resource .container2 {
+    float: right;
+    padding: 30px;
+    margin-right: 10%;
+    margin-top: 4%;
+  }
+  
+  #resource  div p {
+    font-size: 14px;
+  }
+  
+  #resource  .person {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  #resource .container3 {
+    display: flex;
+  }
+  
+  #resource  .box1 {
+    flex: 1;
+    margin-left: 15%;
+    padding: 60px;
+  }
+  
+  #resource  .box2 {
+    flex: 1;
+    padding: 60px;
+  }
+  
+  #resource  .box3 {
+    flex: 1;
+    margin-right: 15%;
+    padding: 60px;
+  }
+  
+  #resource .container4 {
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  #resource .carsoul {
+    border: 1px solid #000;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #resource .slider {
+    height: 100%;
+    display: flex;
+    width: 500%;
+    transition: all 0.3s;
+  }
+  
+  #resource .slider section {
+    flex-basis: 100%;
+  }
+  
+  #resource .controls .arrow-left {
+    position: absolute;
+    top: 50%;
+  }
+  
+  #resource  .controls .arrow-right {
+    position: absolute;
+    top: 50%;
+  }
+  
+  #resource .arrow-left {
+    left: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  #resource .arrow-right {
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  #resource ul {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+  }
+  
+  #resource li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+  }
+  
+  #resource  .selected {
+    background-color: transparent;
+  }
+  
+  #resource .five {
+    background-color: rgb(186, 228, 245);
+  }
+  
+  #resource .form {
+    padding: 40px;
+    max-width: 750px;
+    margin: auto;
+    max-height: 500px;
+  }
+  
+  #resource label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  
+  #resource input {
+    border-radius: 5px;
+    size: 10px;
+    padding: 5px;
+    border: none;
+  }
+  
+  #resource select {
+    padding: 10px;
+  }
+  
+  #resource  button {
+    font-size: large;
+    margin-top: 20px;
+    padding: 15px;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+  }

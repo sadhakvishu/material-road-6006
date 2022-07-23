@@ -82,8 +82,8 @@ const navbar = () => {
     </div>
 
     <div class="nv_items">
-        <button> <a href="">${user.name}</a></button>
-        <button> <a href="">Sign up</a></button>
+        <button> <a href="../Login/login.html">${user.name}</a></button>
+        <button> <a href="../Login/signup.html">Sign up</a></button>
         
     </div>
     <a href="#" id="hamburger" class="hamburger">
