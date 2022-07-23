@@ -1,0 +1,125 @@
+
+
+#re_1{
+    border:2px solid rgb(119, 198, 230);
+    background-color:  rgb(172, 218, 236);
+    width:100%;
+    height:300px;
+    margin:auto;
+}
+#re_1>div{
+    /* border:2px solid black; */
+    width:40%;
+    height:180px;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+#re_1>div>h1{
+    font-size: 50px;
+}
+
+#re_1>div>p{
+    font-size: 20px;
+}
+
+#re_2{
+    /* border:1px solid green; */
+    width:100%;
+    height:100px;
+}
+#re_2>div{
+    /* border:1px solid red; */
+    width:60%;
+    height:50px;
+    margin-top: 100px;
+    display:inline;
+    gap:10px;
+    
+}
+#re_2>div>p{
+     display:inline; 
+    font-size: 20px;
+    text-align: center;
+
+
+}
+button{
+    margin-left:700px;
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: start;
+}
+
+#re_3{
+        /* border:5px solid green;  */
+        width:100%;
+        height:500px;
+        display:flex;
+    } 
+
+      #re_3 >.re_3_one{
+         /* border:2px solid blue;  */
+        width:50%;
+        height:500px;
+        background-color:rgb(224, 238, 243);
+    }
+    #re_3 >.re_3_one>h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+     #re_3 >.re_3_two{
+         /* border:2px solid red;  */
+        width:40%; 
+        height:400px;
+        margin-left: 50px;
+        margin-top: 100px;
+    } 
+    .re_3_two >h5{
+        
+        font-size: 15px;
+        text-align:start;
+    }
+    .re_3_two >h1{
+       
+        font-size: 30px;
+        text-align:start;
+    }
+    .re_3_two >p{
+        font-size: 20px;
+        
+    }
+
+ .img_two{
+        width:100%;
+        height:450px;
+    } 
+
+
+#res{
+/* border:1px solid blue;  */
+width:90%;
+display:grid;
+grid-template-columns: repeat(3,33%);
+margin:auto;
+margin-top: 150px;
+/* gap:30px; */
+
+
+} 
+
+#res div{
+/* border:1px solid red;  */
+margin-left: 30px;
+} 
+
+#res div>img{
+width:100%;
+height:400px;
+
+}
+#res div>h1{
+text-align: center;
+}
