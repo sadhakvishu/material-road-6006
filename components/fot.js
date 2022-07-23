@@ -1,0 +1,82 @@
+const fote = () =>{
+    return ` <footer class="ft_footer">
+    <div class="ft_row">
+        <div class="ft_container">
+            <div class="ft_container_child_1">
+                <h2>Join our newsletter</h2>
+                <p>We're growing fast. Sign up for news and updates!</p>
+                <form action="">
+                    <input type="text" placeholder="Your email">
+                    <button>></button>
+                </form>
+            </div>
+            <div class="ft_container_child_2">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="ft_container_child_3">
+                <h2>Contact</h2>
+                <p><img src="https://www.hellobrightline.com/assets/phone.svg" alt="">(888) 224-7332</p>
+                <p><img src="https://www.hellobrightline.com/assets/mail.svg" alt="">info@hellobrightline.com</p>
+            </div>
+            <div class="ft_container_child_4">
+                <p> <b> If you, your child, or someone you know is in crisis</b></p>
+                <p>Call 911, go to the nearest emergency room, or reach out to the following national resources. You’re never alone.</p>
+                
+                <p><img src="https://www.hellobrightline.com/assets/phone.svg" alt="">Call 988 or 1-800-273-TALK (8255) to reach a 24-hour crisis line.</p>
+                <p><img src="https://www.hellobrightline.com/assets/call.svg" alt="">Text 741741 to reach the Crisis Text Line.</p>
+                <p>Additional resources <a href="">here</a></p>
+            </div>
+        </div>
+        <div class="ft_container">
+            <div class="ft_sec">
+                <div class="ft_col">
+                    <h2>Company</h2>
+                    <ul>
+                        <li> <a href="">About</a> </li>
+                        <li> <a href="">Careers</a> </li>
+                        <li> <a href="">FAQ</a> </li>
+                    </ul>
+                </div>
+                <div class="ft_col">
+                    <h2>Partners</h2>
+                    <ul>
+                        <li> <a href="">Employers</a> </li>
+                        <li> <a href="">Consultants</a> </li>
+                        <li> <a href="">Health Plans</a> </li>
+                    </ul>
+                </div>
+                <div class="ft_col">
+                    <h2>For Families</h2>
+                    <ul>
+                        <li> <a href="">Care Team</a> </li>
+                        <li> <a href="">Pricing</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft_logos">
+                <img class="ft_logo" src="https://www.hellobrightline.com/assets/Badge.svg" alt="">
+                <img class="ft_logo" src="https://www.hellobrightline.com/assets/Violet-inclusive-provider-badge-white.svg" alt="">
+            </div>
+            <p>All clinical services are provided by licensed physicians and clinicians practicing within independently owned and operated professional practices. For patients in California, this is known as “Brightline Medical Associates of California, Inc.” For patients in New Jersey, this is known as "Brightline Medical Associates of New Jersey, PA." For patients in Kansas, this is known as "Brightline Medical Associates of Kansas, PA." For patients in Oregon, North Dakota and Louisiana, this is known as "Brightline Medical Affiliates, PA." For patients in all other states, this is known as “Brightline Medical Associates, PA". Brightline, Inc. does not itself provide any physician, behavioral health professional, or other healthcare provider services.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="ft_row"><hr></div> -->
+    <div class="ft_row">
+        <div>
+            <a href="">Privacy Policy</a>
+            <a href="">Privacy Practices</a>
+            <a href="">Terms of Service</a>
+        </div>
+        <small>© Brightline. All Rights Reserved. 2021</small>
+    </div>
+</footer>`
+}
+
+export {fote}

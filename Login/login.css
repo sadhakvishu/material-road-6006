@@ -13,9 +13,18 @@ body{
     margin: auto;
     margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-    border-radius:50px ;
+    border-radius:5px ;
     background-color:white ;
     text-align: center;
+    animation: fly 2s;
+}
+@keyframes fly{
+    0% {
+        transform: translate(0%,200%);
+    }
+    100% {
+        transform: translate(0%,0%);
+    }
 }
 .login .li_alert{
     display: none;
@@ -43,18 +52,47 @@ body{
     background-color:#237E6B ;
     color:white;
     border: transparent;
-    width: 299px;
+    width: 300px;
+    border-radius:0px 0px 5px 5px ;
+    margin-top: 15px;
 }
 .login .li_input{
-    padding: 0 0 20px 0px;
+    display: flex;
+    align-items: center;
+   
+    gap: 8px;
     /* border: 1px solid rgb(182, 180, 180); */
 }
 .login input{
-    padding: 14px;
+    padding: 4px;
     border: none;
+    outline: none;
 }
- .login textarea:focus, input:focus{
+ .login textarea:focus input:focus{
 border: 1px solid grey;
 outline: none;
 
 }
+.li_input{
+    border: 1px solid grey;
+    width: 250px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px 0px 2px 4px; 
+}
+.li_input>img{
+    width: 20px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background:transparent;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
