@@ -1,3 +1,7 @@
+import {navbar} from "./nav.js";
+let nav = document.querySelector("header")
+nav.innerHTML= navbar();
+
 window.addEventListener("scroll",()=>{
     let nav=document.querySelector(".navbar");
     let position=window.scrollY>0;
