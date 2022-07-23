@@ -34,12 +34,17 @@ header{
     align-items: center;
 }
 
-.nv_items li{
+.nv_items li,a{
     list-style: none;
     margin-left: 45px;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-align: center;
 }
 
-.nv_items button:first-child{
+.nv_items button:first-child {
     padding: 20px 30px;
     /* margin-right: 30px; */
     margin-left: 75px;
@@ -61,6 +66,10 @@ header{
     border-radius: 30px;
     margin-left: 15px;
 
+}
+.nv_items button a{
+    margin-left: 0px;
+    color: white;
 }
 
 .dropdown{
