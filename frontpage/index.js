@@ -4,3 +4,4 @@ setInterval(() => {
     let random=Math.floor(Math.random()*11)
     text.innerText=arr[random]
 }, 500);
+

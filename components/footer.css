@@ -1,4 +1,4 @@
-*{
+.ft_footer *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,14 +7,22 @@
     font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
     font-size: 12px;
 }
+#footer{
+    padding: 20px 76px;
+    background-color: #2C333F;
+
+}
 .ft_footer{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
     /* border: 1px solid; */
-    margin-top: 100px;
-    padding: 56px;
+    /* margin-top: 100px; */
+    /* padding: 56px; */
     
 }
+/* #footer ul>li>a{
+    display: grid;
+}  */
 
 .ft_footer a{
     text-decoration: none;
