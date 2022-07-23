@@ -10,11 +10,12 @@
 .ft_footer{
     max-width: 1300px;
     margin: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 100px;
     padding: 56px;
     
 }
+
 .ft_footer a{
     text-decoration: none;
 }
@@ -36,6 +37,10 @@
     justify-content: space-evenly;
     padding: 20px;
     /* border: 1px solid red; */
+}
+.ft_footer .ft_row:last-child{
+    display: flex;
+    justify-content: space-between;
 }
 .ft_sec{
     display: flex;
