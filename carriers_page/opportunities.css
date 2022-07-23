@@ -211,6 +211,7 @@ width: fit-content;
 /* border: 1px solid red; */
 background-color:#ffd85d;
 padding: 20px;
+
 }
 #join h1{
 font-size: 40px;
@@ -229,9 +230,9 @@ grid-template-columns: repeat(2,1fr);
 margin-top: 4%;
 /* height: 500px; */
 }
-#join3 div{
+/* #join3 div{
 /* border: 1px solid; */
-}
+
 #join4 h3{
 margin-top: 5%;
 font-weight: lighter;
@@ -252,7 +253,7 @@ margin-left: 10%;
 width: 100%;
 }
 #div2 img{
-    width: 100%;
+    width: 60%;
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
 html{

@@ -1,0 +1,129 @@
+html{
+    font-size: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    /* height: 500px; */
+    width: 100%;
+    /* border: 1px solid red; */
+display: grid;
+grid-template-columns: repeat(2,1fr);}
+
+#container>div img{
+width: 100%;
+
+}
+.innerdiv{
+width: 100%;
+/* height: 369px; */
+margin: auto;
+margin-left: 3%;
+/* border: 1px solid; */
+margin-top: 26%;
+justify-content: center;
+align-items: center;
+}
+.innerdiv p{
+font-size:20px ;
+}
+.innerdiv h2{
+font-size: 48px;
+font-weight: lighter;
+}
+.innerdiv button{
+margin-top: 10%;
+padding: 14px 10px;
+border-radius: 20px;
+/* margin-right: 67%; */
+background-color:  #267e6b;border: transparent;
+color: white;
+margin-right: 2%;
+}
+.innerdiv button:hover{
+background-color: rgb(42, 85, 80);
+}
+#pbtn{
+padding: 14px 10px;
+border-radius: 20px;
+
+background-color: white ;
+border: 1px solid #267e6b;
+color:#267e6b ;
+}
+#pbtn:hover{
+color: antiquewhite;
+background-color: #267e6b;
+}
+#tex{
+font-size: 15px;
+word-spacing: 5px;
+margin-top: 6%;
+
+}
+#tex{
+    font-size: 15px;
+    word-spacing: 5px;
+    margin-top: 6%;
+    
+    } #tex u{
+    font-weight: bold;
+    }
+
+    #join{
+        width: fit-content;
+        /* height: 500px; */
+        /* border: 1px solid red; */
+        background-color:#ffd85d;
+        padding: 20px;
+        /* margin-top: 5%; */
+        
+        }
+        #join h1{
+        font-size: 40px;
+        margin-top: 1.5%;
+        }
+        #join1{
+        text-align: center;
+        /* border: 1px solid; */
+        margin-top: 4%;
+        }
+        #join3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        /* border: 1px solid red; */
+        margin-top: 4%;
+        /* height: 500px; */
+        }
+        #join3 div{
+        /* border: 1px solid; */
+        }
+        #join4 h3{
+        margin-top: 5%;
+        font-weight: lighter;
+        font-size: 20px;
+        text-align: center;
+        }
+        #sp{
+            color: #267e6b;
+        }
+        #join4 h1{
+        margin-top: 2%;
+        font-weight: lighter;
+        font-size: 30px;
+        text-align: center;
+        }
+        #join4 h6{
+        text-align: center;
+        }
+        #div2{
+        margin-left: 10%;
+        width: 100%;
+        }
+        #div2 img{
+            width: 60%;
+        }
