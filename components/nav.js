@@ -1,5 +1,10 @@
 const navbar = () => {
     let user = JSON.parse(localStorage.getItem("userData"))||{name:"Login"};
+    let [signup,link] = ["Sign up","../Login/signup.html"]
+    if(user.name!=="Login"){
+        signup="Logout";
+        link="#"
+    }
 
     return `  <div class="navbar">
 
@@ -83,7 +88,7 @@ const navbar = () => {
 
     <div class="nv_items">
         <button> <a href="../Login/login.html">${user.name}</a></button>
-        <button> <a href="../Login/signup.html">Sign up</a></button>
+        <button id="logoutbtn"> <a href=${link}>${signup}</a></button>
         
     </div>
     <a href="#" id="hamburger" class="hamburger">
