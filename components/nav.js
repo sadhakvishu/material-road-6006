@@ -22,7 +22,7 @@ const navbar = () => {
                         <ul>
                             <li><a href="../How it works/experience.html">The Brightline Experience</a> </li>
                             <li><a href="..//How it works/approach.html">Our Approach</a> </li>
-                            <li><a href="../How it works/resarch.html">Our Resarch</a></li>
+                            <li><a href="#">Our Resarch</a></li>
                             <li><a href="../How it works/aboutus.html">About Us</a></li>
                         </ul>
                     </div>

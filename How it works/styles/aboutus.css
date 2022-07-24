@@ -335,4 +335,106 @@ grid-template-columns: repeat(1,1fr);
 
 }
 
+#video{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 500px; */
+    text-align: center;
+    background-color: #deebe9;
+    padding: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    }
+    #ooo {
+    
+    top: 0;
+    width: 100%;
+    height: 100%;}
+    #Vdo
+    {
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    margin-top: 3%;
+    
+    }
+    #video p{
+    margin-top: 2%;
+    }
+    #video h1{
+    font-weight: light;
+    font-size: 40px;
+    }
 
+
+    .four span {
+        font-size: 50px;
+        margin-left: 30%;
+      }
+      
+      .person {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      
+      .container3 {
+        display: flex;
+      }
+      
+      .box1 {
+        flex: 1;
+        margin-left: 15%;
+        padding: 60px;
+      }
+      
+      .box2 {
+        flex: 1;
+        padding: 60px;
+      }
+      
+      .box3 {
+        flex: 1;
+        margin-right: 15%;
+        padding: 60px;
+      }
+
+              /* view more section */
+              #learnabout{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                /* border: 1px solid ; */
+                margin-top: 20px;
+              }
+              #outerdiv{
+                /* border: 1px solid red; */
+                width: 85%;
+                margin: auto;
+                margin-top: 90px;
+              }
+
+              .owl-carousel {
+                /* border: 5px solid green; */
+                margin: auto;
+                margin-top: 20px;
+              }
+              .Carasol{
+                text-align: center;
+                margin-top: 110px;
+                margin-bottom: 50px;
+                font-size:40px;
+                font-weight: lighter;
+                color: rgb(71, 70, 70);
+              }
+              #brightlineo{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                width: 70%;
+                /* border: 1px solid; */
+                margin: auto;
+                margin-bottom: 20px;
+              }
+              #brightlineo>div img{
+                width: 100%;
+              }
