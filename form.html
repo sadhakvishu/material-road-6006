@@ -87,6 +87,11 @@ font-weight: bold;
   cursor: pointer;
   border: none;
 } 
+img{
+    display: block;
+    width: 50%;
+    margin:auto;
+}
   </style>
 </head>
 <body>
@@ -182,4 +187,27 @@ font-weight: bold;
 </div>
 
 </body>
+<script>
+    let body = document.querySelector("body");
+    let btn = document.querySelector("button");
+    btn.addEventListener("click",()=>{
+        body.innerHTML=null;
+        let img = document.createElement("img");
+        img.src= "https://c.tenor.com/K2UGDd4acJUAAAAC/load-loading.gif"
+        body.append(img);
+        setTimeout(()=>{
+            img.src="";
+            img.src="https://cdn.dribbble.com/users/129972/screenshots/3964116/75_smile.gif";
+            myfunc();
+             
+         },3000)
+    })
+
+    function myfunc(){
+        setTimeout(()=>{
+            alert("We will contact you soon.");
+            window.location.href="./index.html";
+        },3000)
+    }
+</script>
 </html>

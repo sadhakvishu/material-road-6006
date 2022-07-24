@@ -59,7 +59,7 @@ const navbar = () => {
                         <ul>
                             <li>Membership</li>
                             <li>Pricing</li>
-                            <li>Coaching</li>
+                            <li><a href="./form.html>Coaching</a></li>
                             <li>Care</li>
                             <li>FAQ</li>
                             <li>Blog</li>
