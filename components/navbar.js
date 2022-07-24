@@ -6,6 +6,14 @@ import {fote} from "./fot.js";
 let fot = document.querySelector("#footer")
 fot.innerHTML= fote();
 
+document.getElementById("logoutbtn").addEventListener("click",()=>{
+  if(document.getElementById("logoutbtn").innerText=="Logout"){
+    localStorage.clear();
+    window.location.reload();
+  }
+})
+
+
 window.addEventListener("scroll",()=>{
     let nav=document.querySelector(".navbar");
     let position=window.scrollY>0;

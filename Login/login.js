@@ -11,6 +11,7 @@ async function login(){
     let url = "https://masai-api-mocker.herokuapp.com/auth/login"
     try{
         let response = await fetch(url,{
+            // mode:"no-cors",
             method: "POST",
             body: login_data,
             headers:{
