@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brightline research</title>
+  <style>
+    body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.five{
+  border: 1px solid transparent;
+  background-color: #AFCEFA;
+  height: 135vh;
+}
+.get_in_touch{
+ border: 1px solid transparent;
+ height: 15vh;
+ margin: auto;
+ margin-top: 30px;
+ width: 20vw;
+ text-align: center;
+ padding: 30px;
+}
+.support{
+border: 1px solid transparent;
+text-align: center;
+}
+.form{
+border: 1px solid transparent;
+height: 60vh;
+padding: 30px;
+margin: auto;
+}
+.first_one{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+input{
+  width: 30vw;
+  height: 5vh;
+  border-radius: 5px;
+}
+label{
+  font-size: 18px;
+}
+.red-star {
+  color: red;
+}
+.email_text{
+font-weight: bold;
+}
+.E_Add{
+  margin-left: 210px;
+}
+.Ewidth{
+  width:62.5vw;
+}
+.select{
+  padding: 10px;
+  width: 31vw;
+  border-radius: 5px;
+}
+.P_Int{
+  margin-left: 205px;
+}
+
+.btn_{
+   margin-left: 205px;
+}
+.btn_ button:hover{
+    background-color: aqua;
+}
+.btn_ button {
+  width: 160px;
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+} 
+img{
+    display: block;
+    width: 50%;
+    margin:auto;
+}
+  </style>
+</head>
+<body>
+
+<div class="five">
+      <div class="get_in_touch">
+          <h1 >
+          Get in touch with Brightline
+          </h1>
+      </div>
+        <div class="support">
+          <p>Let’s get families support, together</p>
+        </div>
+      <div class="form">
+            <div class="first_one">
+
+              <div> 
+                <label>First Name:</label>
+                <br>
+                <input type="text" name="">
+              </div>
+              <div>
+                <label>Last Name:</label>
+                <br>
+                <input type="text" name="">
+              </div>
+
+            </div>
+          
+            <br>
+            <div class="E_Add">
+              <label class="email_text">Email Address:</label><sup><span class="red-star">★</span></sup>
+              <br>
+              <input type="email" name="" class="Ewidth">
+            </div>
+
+            <br>
+            <div class="first_one">
+
+              <div> 
+                <label>Phone Number:</label>
+                <br>
+                <input type="text" name="">
+              </div>
+              <div>
+                <label>Company Name:</label>
+                <br>
+                <input type="text" name="">
+              </div>
+
+            </div>
+
+            <br>
+            <div class="first_one">
+
+                <div> 
+                  <label>Num Employees:</label>
+                  <br>
+                  <select name="" class="select">
+                    <option value="Select">Select...</option>
+                    <option >0 - 1,000</option>
+                    <option >1,000 - 5,000</option>
+                    <option >5,000 - 10,000</option>
+                    <option >10,000+</option>
+                  </select>
+                </div>
+                <div>
+                  
+                  <label>Job Title:</label>
+                  <br>
+                  <input type="text" name="">
+                </div>
+
+            </div>
+            
+            <br>
+            <div class="P_Int">
+              <label>Product Interest:</label>
+              <br>
+              <select name="" class="select">
+                <option value="select">Select</option>
+                <option>Consultant</option>
+                <option>Employer</option>
+                <option>Health Plan</option>
+              </select>
+            </div>
+          
+            <br><br><br>
+            <div class="btn_">
+              <button value="submit">Submit</button>
+            </div>
+      </div>
+</div>
+
+</body>
+<script>
+    let body = document.querySelector("body");
+    let btn = document.querySelector("button");
+    btn.addEventListener("click",()=>{
+        body.innerHTML=null;
+        let img = document.createElement("img");
+        img.src= "https://c.tenor.com/K2UGDd4acJUAAAAC/load-loading.gif"
+        body.append(img);
+        setTimeout(()=>{
+            img.src="";
+            img.src="https://cdn.dribbble.com/users/129972/screenshots/3964116/75_smile.gif";
+            myfunc();
+             
+         },3000)
+    })
+
+    function myfunc(){
+        setTimeout(()=>{
+            alert("We will contact you soon.");
+            window.location.href="./index.html";
+        },3000)
+    }
+</script>
+</html>
