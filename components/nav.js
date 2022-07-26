@@ -9,9 +9,9 @@ const navbar = () => {
     return `  <div class="navbar">
 
     <div class="nv_items">
-
+    <a href="../index.html">
         <img src="https://www.hellobrightline.com/assets/brightline-logo.svg" alt="">
-
+    </a>
     </div>
 
     <div class="nv_items">
